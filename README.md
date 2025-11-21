@@ -4,9 +4,6 @@ A Flask web application for converting videos to animated GIFs with secure API k
 
 <img width="872" height="556" alt="image" src="https://github.com/user-attachments/assets/d5dcdd77-c75e-4ee3-94c6-048421ec4239" />
 
-### Authentication & Settings
-<img width="882" height="788" alt="image" src="https://github.com/user-attachments/assets/0ebe4d91-502f-4707-a168-3442f39040b5" />
-
 ## Status
 
 🟢 **Live Demo:** [https://headachediary-ybla.onrender.com](https://animategifapp.onrender.com/)/
@@ -25,6 +22,9 @@ A Flask web application for converting videos to animated GIFs with secure API k
 - 🔄 **Real-time conversion progress** with detailed status updates
 - 🧹 **Automatic cleanup** of temporary files
 - ✅ **Input validation** and error handling
+
+### Authentication & Settings
+<img width="882" height="788" alt="image" src="https://github.com/user-attachments/assets/0ebe4d91-502f-4707-a168-3442f39040b5" />
 
 ## Supported Formats
 
