@@ -1,0 +1,16 @@
+services:
+  - type: web
+    name: animated-gif-generator
+    runtime: python3
+    buildCommand: pip install -r requirements.txt
+    startCommand: gunicorn --bind "0.0.0.0:$PORT" --workers 1 --timeout 300 app:app
+    healthCheckPath: /health
+    envVars:
+      - key: FLASK_ENV
+        value: production
+      - fromSecret: gif-api-key
+      - fromSecret: flask-secret-key
+      - key: MAX_CONTENT_LENGTH
+        value: 52428800  # 50MB in bytes
+      - key: PYTHONUNBUFFERED
+        value: "1"
