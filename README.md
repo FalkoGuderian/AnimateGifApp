@@ -1,6 +1,6 @@
 # Animated GIF Generator with API Key Authentication
 
-A Flask web application for converting videos to animated GIFs with secure API key authentication. **Fully functional and tested!** ✅
+A Flask web application for converting videos to animated GIFs with secure API key authentication.
 
 <img width="872" height="556" alt="image" src="https://github.com/user-attachments/assets/d5dcdd77-c75e-4ee3-94c6-048421ec4239" />
 
